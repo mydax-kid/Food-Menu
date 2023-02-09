@@ -39,7 +39,6 @@ body{
 
 .card{
   width: 500px;
-  //height: 150px;
   box-shadow: 0 0 4px rgba(0,0,0,0.3);
   display: flex;
   transition: all 0.3s ease-out;
@@ -95,4 +94,9 @@ body{
   color: white;
   border: 1px solid transparent;
   cursor: pointer;
+}
+
+.active {
+  background: green;
+  color: #fff;
 }
